@@ -100,6 +100,7 @@ export const TagList = styled.ul`
   display: flex;
   justify-content: start;
   padding: 1rem 2rem;
+  overflow-x: scroll;
 `;
 export const Tag = styled.li`
   font-size: 1.5rem;

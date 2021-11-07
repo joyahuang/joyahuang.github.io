@@ -15,7 +15,7 @@ const Acomplishments = () => (
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {AccomplishData.map((card, index) => (
-        <Box>
+        <Box key={index}>
           <BoxNum>{card.number}+</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
