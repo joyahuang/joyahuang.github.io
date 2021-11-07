@@ -2,8 +2,11 @@ import styled from "styled-components";
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0f1624;
-  padding: 0rem;
+  padding: 3rem 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -39,7 +42,6 @@ export const CarouselMobileScrollNode = styled.div`
 `;
 
 export const CarouselItem = styled.div`
-  background: #0f1624;
   border-radius: 3px;
   margin: 0 1rem;
   max-width: 300px;
@@ -71,15 +73,6 @@ export const CarouselItemTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   /*display: flex;*/
-  color: white;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(
-    121.57deg,
-    #ffffff 10%,
-    rgba(255, 255, 255, 0.66) 30.15%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -94,7 +87,6 @@ export const CarouselItemTitle = styled.h4`
   }
 `;
 export const CarouselItemImg = styled.svg`
-  margin-left: 21px;
   -webkit-mask-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 1),
@@ -113,7 +105,7 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: #b1b3b7;
   padding-right: 16px;
 
   @media ${(props) => props.theme.breakpoints.md} {

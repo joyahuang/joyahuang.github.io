@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SectionDivider } from "../../styles/GlobalComponents";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -17,12 +18,11 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionDivider></SectionDivider>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:206-886-4309">
-            Like I would post my phone number here.
-          </LinkItem>
+          <LinkItem href="tel:206-886-4309">Click the call.</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>

@@ -10,6 +10,8 @@ import { AccomplishData } from "../../constants/constants";
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider></SectionDivider>
+    <br />
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {AccomplishData.map((card, index) => (

@@ -19,7 +19,6 @@ const Technologies = () => (
     <SectionDivider></SectionDivider>
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>Front end</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"></DiReact>

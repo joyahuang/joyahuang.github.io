@@ -5,8 +5,8 @@ export const projects = [
       "Interactive map web application for places of interest. Functions includes display locations, integrate information filter data and search places .",
     image: "/images/Screen Shot tripoi.png",
     tags: ["React", "Node", "Google Map", "Material UI"],
-    source: "https://github.com/joyahuang/tripoi",
-    visit: "https://joyahuang.github.io/tripoi/",
+    source: "https://joyahuang.github.io/tripoi/",
+    visit: "https://github.com/joyahuang/tripoi",
     id: 0,
   },
 ];

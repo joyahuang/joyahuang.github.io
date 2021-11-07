@@ -14,7 +14,10 @@ const Hero = (props) => (
       <SectionTitle main center>
         Welcome To My World!
       </SectionTitle>
-      <SectionText>Multidisciplinary, Geek, Artistic, Free, Brave.</SectionText>
+      <SectionText>
+        Hi! I'm Zhuoya. <br /> My keywords: Multidisciplinary, Geek, Artistic,
+        Free, Brave.
+      </SectionText>
       <Button
         onClick={() =>
           (window.location = "https://www.linkedin.com/in/zhuoya-h-2a3614176/")
