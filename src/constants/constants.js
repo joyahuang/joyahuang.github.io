@@ -9,6 +9,15 @@ export const projects = [
     visit: "https://github.com/joyahuang/tripoi",
     id: 0,
   },
+  {
+    title: "Memory",
+    description: "TBD",
+    image: "/images/Screen Shot Memory.png",
+    tags: ["React", "Node", "Google Auth", "Express", "MongoDB"],
+    source: "https://joyahuang.github.io/memory",
+    visit: "https://github.com/joyahuang/memory",
+    id: 0,
+  },
 ];
 
 export const TimeLineData = [
